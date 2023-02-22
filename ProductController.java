@@ -1,9 +1,9 @@
 import java.util.List;
 
-public abstract class Product {
+public abstract class ProductController {
     private List<Rule> rules;
 
-    public Product(List<Rule> rules) {
+    public ProductController(List<Rule> rules) {
         this.rules = rules;
     }
 
